@@ -19,4 +19,6 @@ function [x,y]=ode_euler(a,b,y0,n)
   plot(x,y,'*-')
   legend('exact solution','approximate solution')
   axis('x','y')
+	
+	errE=max(abs(y-egzy)) %maximum error
 end
