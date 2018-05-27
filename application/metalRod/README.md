@@ -12,7 +12,7 @@ Steel is shaped into long rods which are heated so the stress gained during shap
 where Q<sub>k</sub> is power of cooling by convection, H is empirical constant called coefficient of heat transfer, A<sub>p</sub> is area of the rods cape, T is temperature of the rod (assuming it is uniform) and T<sub>0</sub> is the temperature of the air (environment). Heat transfer by radiation happens by means of electromagnetic waves in infrared spectrum. Rods exchange heat with any other surface in visible range. We assume that all of them have the temperature T<sub>0</sub>
 In that case the model is
 <p align="center"><img src="svgs/f94b405f090d27ff2cbd44071abf4282.svg" align=middle width=154.65334499999997pt height=18.869894999999996pt/></p>
-Q<sub>z</sub> is the power of cooling by radiation, `\epsilon` is the relative power of heat radiation that the rods area has, `\sigma` is Stefan-Boltzmanns constant.
+Q<sub>z</sub> is the power of cooling by radiation, ϵ is the relative power of heat radiation that the rods area has, σ is Stefan-Boltzmanns constant.
 Temperature in heat transfer by radiation has to be in °K, it can be switched to °C later. 
 At each moment, the energy equilibrium is given by
 <p align="center"><img src="svgs/c7d12f8fb8283891494a08d5822d49bf.svg" align=middle width=168.5277pt height=33.769394999999996pt/></p>,
