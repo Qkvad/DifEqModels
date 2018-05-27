@@ -4,6 +4,7 @@ Problem is given on: https://web.math.pmf.unizg.hr/~nela/zr2vjezbe/zr2_dif_jedna
 
 ## Problem
 ![](problem.jpg?raw=true)
+
 Strength of metal is controlled by its chemical composition and steps of mechanical design that were used to get it. After melted metal hardens, but before cooling completely, it is shaped into levers, plates or rods. Then, metal is left to cool and after it is subjected to carefully controlled changes of temperature in process called Thermic processing. 
 Simple model of thermical processing is given by non-linear first order ODE for temperature of metal as function of time.
 Steel is shaped into long rods which are heated so the stress gained during shaping is released. Rods are heated by letting the electricity through. After rods gain certain temperature, electricity is turned off and ventilators turn on to cool them. In both fases, heating and cooling, rods exchange heat with the environment by convection and radiation. Heat transfer by convection happend because of moving air around the rods and is modeled by equation
@@ -19,8 +20,8 @@ where $$t$$ is time, $$m$$ is the mass of the rod, $$c$$ is specific heat capaci
 The ODE describing the model is 
 $$\[\frac{dT}{dt}= \frac{1}{mc} \left \{ Q_{e}-A_{p}\left [ H(t)(T-T_{0})+\epsilon \sigma (T^4 - T_{0}^4) \right ] \right \}\]$$.
 Since thermic processing is conducted in two phases:
-	1. heating by electricity is on and ventilators are off : heating (free convection)
-	2. heating is off and vectilators are on : cooling (forced convection)
+	- heating by electricity is on and ventilators are off : heating (free convection)
+	- heating is off and vectilators are on : cooling (forced convection)
 we have the following situation
 $$\[H(t)=\left\{\begin{matrix}
 H_1, & t < t_h \\ 
