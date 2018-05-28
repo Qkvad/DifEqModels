@@ -1,4 +1,4 @@
-
+# Predator Prey model
 
 We are looking into the dinamic of populations of two connected animal spieces: 
 - prey (rabbit) is the primary food source for other spieces
