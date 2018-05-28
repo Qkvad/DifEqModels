@@ -4,10 +4,10 @@ We are looking into the dinamic of populations of two connected animal spieces:
 - prey (rabbit) is the primary food source for other spieces
 - predator (wolf) 
 
-Let p<sub>1</sub>(t) be the population of the prey and p<sub>2</sub>(t) be the population of the predator. Rate of increase of both populations can be modeled by these ODEs
+Let p<sub>1<\sub>(t) be the population of the prey and p<sub>2<\sub>(t) be the population of the predator. Rate of increase of both populations can be modeled by these ODEs
 
-<p align="center"><img src="svgs/975b5349e4aac5528ed0ba6810d8b8f4.svg" align=middle width=146.586825pt height=33.769394999999996pt/></p>
-<p align="center"><img src="svgs/e008f70637d140b097a04dc03361456c.svg" align=middle width=146.586825pt height=33.769394999999996pt/></p>
+<p align="center"><img src="svgs\975b5349e4aac5528ed0ba6810d8b8f4.svg" align=middle width=146.586825pt height=33.769394999999996pt\><\p>
+<p align="center"><img src="svgs\e008f70637d140b097a04dc03361456c.svg" align=middle width=146.586825pt height=33.769394999999996pt\><\p>
 
 where 
 - α<sub>1<\sub> and α<sub>2<\sub> are the coefficients for rate of increase,
@@ -37,7 +37,7 @@ where
 
 - y0 is m dimensional vector with m initial conditions for each equation
 - y is mx(n+1) matrix with i-th column y(1:m,i)=y(x(i))
-- prey_pred_f(t,p) is the implementation of the right sides of SODE and it returns  column vector of the elements dp1/dt and dp2/dt
+- prey_pred_f(t,p) is the implementation of the right sides of SODE and it returns  column vector of the elements dp1\dt and dp2\dt
 
 ### Parameters
 
