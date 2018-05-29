@@ -49,3 +49,9 @@ where
 - p<sub>2</sub> (0) = 100
 - n = 300
 - tol = 10<sup>-2</sup>
+
+## Solution 
+
+In the image below can be seen solutions obtained by ode_rk4v(red) and ode_rk23v(blue).
+
+![](solution.jpg?raw=true)
