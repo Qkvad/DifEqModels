@@ -16,8 +16,10 @@ function rj=term_obrada_funkcija(t,T)
   m=ro*V;             % mass of the rod
   if t<th
     H=H1;
+    rj=(1/(m*c))*(Qe-Ap*(H*(T-T0)+e*sigma*(T^4 - T0^4)));
   else
     H=H2;
+    rj=(1/(m*c))*(-Ap*(H*(T-T0)+e*sigma*(T^4 - T0^4)));
   end
-  rj=(1/(m*c))*(Qe-Ap*(H*(T-T0)+e*sigma*(T^4 - T0^4)));
+  
 end
